@@ -1,1 +1,0 @@
-# CosmoCup.github.io
