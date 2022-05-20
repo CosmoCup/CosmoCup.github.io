@@ -37,7 +37,7 @@ h1 {
     font-family: 'swis721';
     font-size: clamp(0px, 7.8vw, 110px);
     margin: 0;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     width: 50%;
 }
 
@@ -52,7 +52,7 @@ h1 {
 
 .boxLeft {
     float: left;
-    width : 100%;
+    width : 90%;
     position: relative;
     padding-left: 5%;
     text-align: left;
