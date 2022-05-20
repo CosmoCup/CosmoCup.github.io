@@ -4,111 +4,61 @@
 }
 
 @font-face {
-    font-family: 'chedros';
-    src: url("fonts/Chedros.ttf");
+    font-family: 'swis721';
+    src: url("fonts/swissc.ttf");
 }
 
 @font-face {
-    font-family: 'montebello';
-    src: url("fonts/Montebello.otf");
+    font-family: 'segoe';
+    src: url("fonts/seguisym.ttf");
 }
 
-@font-face {
-    font-family: 'elmono';
-    src: url("fonts/Elmono.ttf");
-}
-
-@font-face {
-    font-family: 'chopader';
-    src: url("fonts/Chopader.otf");
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    height: 120px;
-    width: 100%;
-    background-image: url("img/Gradient-BG.jpg");
-    background-size: cover;
-}
-
-.nav {
-    background:rgb(0, 0, 0);
-    box-shadow: 0px 5px 5px 5px rgb(0, 0, 0, 0.6);
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.contentCardContainer {
-    display: flex;
-    justify-content: center;
-    
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.075);
-    box-shadow: 0px 0px 15px 10px rgba(0,0,0,.6);
-    padding-top: 10px; padding-bottom: 10px;
-}
-
-.contactContainer {
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    box-shadow: 0px 0px 15px 10px rgba(0,0,0,.0);
-    padding-bottom : 1px; padding-top: 1px;
-}
-
-.contentCard {
-    width : 350px;
-    height: 450px;
-    margin: 20px;
-    background-color:rgb(202, 202, 202);
-    background-size:contain;
-    background-position: top;
-    box-shadow: 0px 0px 15px 10px rgba(0,0,0,.6) , 0px 0px 25px 25px rgb(0,0,0,0.5) inset ;
-}
-
-.contentCardText {
-    width : 350px;
-    height: 110px;
-    margin: 0px;
-    background-color:rgb(19, 19, 19);
-    position: absolute;
-    bottom:-467px;
-    box-shadow: 0px 0px 20px 20px rgb(0,0,0,0.2) inset;
-    text-align: center;
-    
-}
-
-a {
-    margin: 5px;
-    text-align: center;
-    font-size: 24px;
-    width: 120px;
-    text-decoration: none;
-    color: rgb(211, 211, 211);
-}
-
-p {
-    font-family: "Chedros";
-    text-align: center;
-    margin-right: 30px;
-    color: rgb(80, 80, 80);
+html {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    background-image: url("img/BG-Loop.jpg");
-    background-size: 100%;
+    background-color: rgb(18, 18, 18);
     color: rgb(240, 240, 240);
-    font-family: 'chopader';
-    padding: 0%;
-    margin: 0%;
-    box-shadow: 0px 0px 100000px 100000px rgb(0,0,0,0.6) inset;
+    font-family: 'segoe';
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.1em;
+}
+
+p {
+    font-size: clamp(0px, 2.4vw, 32px);
+    text-align: right;
+    margin: 0;
 }
 
 h1 {
-    font-size: 64px;
-    font-family: 'chopader';   
-    text-align: center;
+    font-family: 'swis721';
+    font-size: clamp(0px, 6.2vw, 90px);
+    text-align: right;
+    margin: 0;
+    margin-bottom: 10%;
+}
+
+.boxRight {
+    float: right;
+    width : 45%;
+    position: relative;
+    aspect-ratio: 1;
+    padding-right: 5%;
+}
+
+.boxLeft {
+    float: left;
+    width : 45%;
+    position: relative;
+    aspect-ratio: 1;
+    padding-left: 5%;
+}
+
+.boxImage {
+    width : 50%;
+    position: relative;
+    aspect-ratio: 1;
 }
