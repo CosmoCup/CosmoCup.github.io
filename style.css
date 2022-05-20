@@ -18,17 +18,17 @@ body {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    letter-spacing: 0.05em;
 }
 
 p {
     font-size: clamp(0px, 3.2vw, 32px);
     margin: 0;
     width: 50%;
+    letter-spacing: 0.00em;
 }
 
 h1 {
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     font-family: 'Oswald';
     line-height: 1em;
     font-size: clamp(0px, 7.8vw, 110px);
@@ -39,7 +39,7 @@ h1 {
 
 .boxRight {
     float: right;
-    width : 100%;
+    width : 90%;
     position:relative;
     padding-right: 5%;
     text-align: right;
