@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'steamed';
-    src: url("fonts/Steamed.otf");
-}
-
-@font-face {
     font-family: 'swis721';
     src: url("fonts/swissc.ttf");
 }
@@ -24,7 +19,7 @@ body {
     font-family: 'segoe';
     margin: 0;
     padding: 0;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
 }
 
 p {
