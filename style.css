@@ -28,7 +28,7 @@ body {
 }
 
 p {
-    font-size: clamp(0px, 2.8vw, 40px);
+    font-size: clamp(0px, 2.8vw, 32px);
     margin: 0;
     width: 50%;
 }
