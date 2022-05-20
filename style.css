@@ -1,11 +1,9 @@
-@font-face {
-    font-family: 'swis721';
-    src: url("fonts/swissc.ttf");
+@font-face { 
+    font-family: 'Oswald', sans-serif;
 }
 
 @font-face {
-    font-family: 'segoe';
-    src: url("fonts/seguisym.ttf");
+    font-family: 'Akshar', sans-serif;
 }
 
 html {
@@ -16,21 +14,22 @@ html {
 body {
     background-color: rgb(18, 18, 18);
     color: rgb(240, 240, 240);
-    font-family: 'segoe';
+    font-family: 'Akshar';
     margin: 0;
     padding: 0;
     letter-spacing: 0.05em;
 }
 
 p {
-    font-size: clamp(0px, 2.8vw, 32px);
+    font-size: clamp(0px, 3.2vw, 32px);
     margin: 0;
     width: 50%;
 }
 
 h1 {
-    letter-spacing: 0.02em;
-    font-family: 'swis721';
+    letter-spacing: 0.05em;
+    font-family: 'Oswald';
+    line-height: 1em;
     font-size: clamp(0px, 7.8vw, 110px);
     margin: 0;
     margin-bottom: 3%;
