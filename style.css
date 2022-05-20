@@ -28,37 +28,51 @@ body {
 }
 
 p {
-    font-size: clamp(0px, 2.4vw, 32px);
-    text-align: right;
+    font-size: clamp(0px, 2.8vw, 40px);
     margin: 0;
+    width: 50%;
 }
 
 h1 {
     font-family: 'swis721';
-    font-size: clamp(0px, 6.2vw, 90px);
-    text-align: right;
+    font-size: clamp(0px, 7.8vw, 110px);
     margin: 0;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+    width: 50%;
 }
 
 .boxRight {
     float: right;
-    width : 45%;
-    position: relative;
-    aspect-ratio: 1;
+    width : 100%;
+    position:relative;
     padding-right: 5%;
+    text-align: right;
+    right: 0;
 }
 
 .boxLeft {
     float: left;
-    width : 45%;
+    width : 100%;
     position: relative;
-    aspect-ratio: 1;
     padding-left: 5%;
+    text-align: left;
+    left: 0;
 }
 
-.boxImage {
-    width : 50%;
-    position: relative;
-    aspect-ratio: 1;
+.boxRight h1 {
+    float: right;
+    width: 100%;
+}
+
+.boxLeft h1 {
+    float: left;
+    width: 100%;
+}
+
+.boxRight p {
+    float: right;
+}
+
+.boxLeft p {
+    float: left;
 }
