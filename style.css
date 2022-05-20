@@ -29,6 +29,7 @@ p {
 }
 
 h1 {
+    letter-spacing: 0.02em;
     font-family: 'swis721';
     font-size: clamp(0px, 7.8vw, 110px);
     margin: 0;
